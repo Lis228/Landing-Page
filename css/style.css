@@ -1,0 +1,553 @@
+body {
+  overflow-x: hidden; }
+
+.header {
+  display: flex;
+  position: absolute;
+  flex-direction: row;
+  width: 100%;
+  z-index: 1; }
+
+.header--borderBttm {
+  border-bottom: 0.5px solid #757575; }
+
+.logo__link, .soucialIcon__link, .soucialIcon__listItem,
+.menu__link {
+  text-decoration: none; }
+
+.logo {
+  position: relative;
+  left: 150px;
+  top: 20px; }
+
+.logo__text {
+  padding: 16px 20px;
+  color: white;
+  font-size: 15pt;
+  font-weight: bold; }
+
+.logo__text--blue {
+  background-color: #11749e; }
+
+.logo__text--shadow {
+  box-shadow: 10px 10px 0px 0px rgba(255, 255, 255, 0.7); }
+
+.menu {
+  position: relative;
+  left: 350px; }
+
+.menu__list {
+  margin-top: 50px;
+  margin-bottom: 41px; }
+
+.menu__listItem {
+  list-style: none;
+  display: inline;
+  margin: 15px;
+  padding: 40px 10px; }
+
+.listItem--borderBttmHover:hover {
+  border-bottom: 4px solid #11749e; }
+
+.menu__link {
+  color: white;
+  font-family: "Myriad Pro", Myriad;
+  font-size: 12pt; }
+
+.soucialIcon {
+  position: relative;
+  left: 400px; }
+
+.soucialIcon__list {
+  margin-top: 50px; }
+
+.soucialIcon__listItem {
+  padding: 10px;
+  display: inline; }
+
+.soucialIcon__img {
+  width: 19px; }
+
+.head {
+  margin-top: 0;
+  width: 100%; }
+
+.head--backroundImg {
+  background-image: url(backgroungImages/headBackground.jpg);
+  background-position: center 0;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.head__text {
+  text-align: center;
+  color: white; }
+
+.head__blockImage {
+  text-align: center;
+  padding-top: 130px; }
+
+.head__image {
+  padding-bottom: 0;
+  max-width: 130px; }
+
+.head__title {
+  font-size: 70pt;
+  font-family: "Gotham",bold; }
+
+.head__subTitle {
+  font-size: 18pt;
+  letter-spacing: 11px;
+  font-family: "Gotham",medium; }
+
+.head__subTitle--blue {
+  color: #11749e; }
+
+.head__scroll {
+  width: 100%; }
+
+.head__scrollTitle {
+  font-size: 11pt;
+  padding-top: 126px;
+  font-family: "Open-sans",serif; }
+
+.head__scroll__icon {
+  width: 60px;
+  padding: 15px 0; }
+
+.info {
+  position: relative;
+  width: 100%; }
+
+.info--blue {
+  background-color: #11749e; }
+
+.info__title,
+.info__titleLetter,
+.info__list {
+  color: white; }
+
+.info__title {
+  text-align: center;
+  padding-top: 110px;
+  font-size: 20pt;
+  font-family: "Gotham",medium; }
+
+.info__titleLetter {
+  position: absolute;
+  width: 100%;
+  font-size: 130pt;
+  top: 30px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  opacity: 0.1; }
+
+.info__list::after {
+  content: "";
+  display: block;
+  clear: both; }
+
+.info__listItem {
+  width: 20%;
+  display: inline;
+  float: left;
+  margin: 140px 30px;
+  padding: 0 20px; }
+
+.info__listItem__blockImage--opacity {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50px;
+  margin: 0 55px;
+  padding: 30px; }
+
+.blockImage__image {
+  width: 44px; }
+
+.info__content, .info__subTitle {
+  text-align: center; }
+
+.info__subTitle {
+  font-size: 15pt;
+  margin: 15px 0 10px 0;
+  font-style: normal;
+  font-family: "Gotham",medium; }
+
+.info__content {
+  font-size: 12pt;
+  line-height: 1.3;
+  font-family: "Gotham",book; }
+
+.news__block {
+  display: flex;
+  flex-direction: row; }
+
+.newsText {
+  padding: 80px 0 0 130px; }
+
+.newsText__title--white,
+.newsText__content--white {
+  color: white; }
+
+.newsText__title--black,
+.newsText__content--black {
+  color: black; }
+
+.newsText__title {
+  font-family: "Gotham",medium;
+  font-size: 20pt;
+  padding-bottom: 30px; }
+
+.newsText__content {
+  font-family: "Gotham",book;
+  padding-right: 90px;
+  line-height: 1.6;
+  font-size: 12pt; }
+
+.newsText--backBlack {
+  background-color: #222222; }
+
+.newsText--backWhite {
+  background-color: #f3f3f3; }
+
+.news__img {
+  width: 50%;
+  height: 400px; }
+
+.project {
+  position: relative;
+  width: 100%; }
+
+.project--white {
+  background-color: white; }
+
+.project__title,
+.project__titleLetter,
+.project__list,
+.project__miniTitle {
+  color: black; }
+
+.project__title {
+  text-align: center;
+  padding-top: 110px;
+  font-size: 30pt;
+  font-family: "Gotham",medium; }
+
+.project__titleLetter {
+  position: absolute;
+  width: 100%;
+  font-size: 130pt;
+  top: 30px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  opacity: 0.1; }
+
+.project__miniTitle {
+  margin-top: 50px;
+  font-size: 20pt;
+  font-family: "Gotham",medium;
+  text-align: center; }
+
+.project__list::after {
+  content: "";
+  display: block;
+  clear: both; }
+
+.project__listItem {
+  width: 25%;
+  display: inline;
+  float: left;
+  margin: 40px 150px;
+  transition: all ease 0.2s; }
+
+.project__listItem:hover {
+  background-color: #f3f3f3;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.4); }
+
+.project__image {
+  width: 100%; }
+
+.project__subTitle {
+  color: #11749e;
+  text-align: center;
+  font-size: 19pt;
+  margin: 15px 0 10px 0;
+  font-style: normal;
+  font-family: "Gotham",medium; }
+
+.project__link {
+  color: black;
+  text-decoration: none; }
+
+.project__content {
+  text-align: center;
+  font-size: 12pt;
+  line-height: 1.5;
+  font-family: "Gotham",book;
+  padding-bottom: 20px; }
+
+.quickAction {
+  display: flex;
+  flex-direction: row; }
+
+.quickAction--blue {
+  background-color: #11749e; }
+
+.quickAction__action {
+  display: flex;
+  flex-direction: row;
+  margin: 55px auto; }
+
+.quickAction__image {
+  width: 69px;
+  height: 69px; }
+
+.quickAction__text {
+  color: white;
+  font-size: 20pt;
+  font-family: "Gotham",book;
+  margin: 20px 0 0 25px; }
+
+.keyArea {
+  display: flex;
+  flex-direction: row; }
+
+.keyArea--background {
+  background-image: url(backgroungImages/keyAreaBackground.jpg);
+  background-position: center 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+
+.keyArea__image {
+  width: 363.63636px;
+  height: 572.72727px;
+  position: absolute;
+  right: -500px;
+  margin-top: 50px; }
+
+.keyArea__text {
+  margin: 100px 350px 150px 100px; }
+
+.keyArea__text--dicoration {
+  color: white;
+  font-family: "Gotham",book;
+  font-size: 12pt; }
+
+.keyArea__title {
+  padding: 35px 10px; }
+
+.keyArea__content {
+  line-height: 1.6;
+  font-size: 90%;
+  margin-right: 400px; }
+
+.keyArea__list {
+  margin-right: 400px;
+  list-style: none;
+  padding-top: 50px;
+  font-size: 13pt; }
+
+.keyArea__listItem {
+  background-color: #11749e;
+  margin-top: 20px;
+  padding: 10px 15px;
+  transition: 0.5s; }
+
+.keyArea__listItem:nth-of-type(1) {
+  width: 80%; }
+
+.keyArea__listItem:nth-of-type(2) {
+  width: 90%; }
+
+.keyArea__listItem:hover {
+  width: 100%;
+  transition: 0.5s; }
+
+.keyArea__image--active {
+  right: 200px;
+  transition: 1.5s; }
+
+.team {
+  position: relative;
+  width: 100%; }
+
+.team--white {
+  background-color: white; }
+
+.team__title,
+.team__titleLetter {
+  color: black; }
+
+.team__title {
+  text-align: center;
+  padding-top: 90px;
+  font-size: 30pt;
+  font-family: "Gotham",medium; }
+
+.team__titleLetter {
+  position: absolute;
+  width: 100%;
+  font-size: 130pt;
+  top: 10px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  opacity: 0.1; }
+
+.team__miniTitle {
+  margin-top: 50px;
+  font-size: 20pt;
+  font-family: "Gotham",medium;
+  text-align: center; }
+
+.teamMember {
+  width: 100%;
+  text-align: center;
+  position: relative; }
+
+.teamMember__image {
+  margin-top: 30px;
+  width: 281.25px; }
+
+.teamMember__content {
+  position: relative;
+  bottom: 45px;
+  background-color: white;
+  width: 225px;
+  margin: 0 auto; }
+
+.teamMember__title {
+  font-size: 16pt;
+  font-family: "Gotham", medium;
+  padding: 15px 0 5px 0; }
+
+.teamMember__title--blue {
+  color: #11749e; }
+
+.teamMember__appointment {
+  font-size: 11pt;
+  font-family: "Gotham", medium;
+  font-weight: bold; }
+
+.contactArea {
+  position: relative;
+  width: 100%; }
+
+.contactArea--background {
+  background-image: url(backgroungImages/formBackground.jpg);
+  background-position: center 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+
+.contactArea__title,
+.contactArea__titleLetter,
+.contactArea__miniTitle {
+  color: white; }
+
+.contactArea__title {
+  text-align: center;
+  padding-top: 90px;
+  font-size: 30pt;
+  font-family: "Gotham",medium; }
+
+.contactArea__titleLetter {
+  position: absolute;
+  width: 100%;
+  font-size: 130pt;
+  top: 10px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  opacity: 0.1; }
+
+.form {
+  margin-top: 100px;
+  color: white; }
+
+.form__row {
+  display: flex;
+  flex-direction: row; }
+
+.form__area {
+  margin: 50px 145px;
+  border: 1px solid white; }
+
+.form__row__area {
+  margin: 0 auto;
+  border: 1px solid white; }
+
+.form__input {
+  width: 98%;
+  height: 150px; }
+
+.form__row__input,
+.form__input {
+  margin: 15px 100px 15px 20px; }
+
+.form__row__input--dicoration,
+.form__input--dicoration {
+  background-color: rgba(255, 255, 255, 0);
+  border: 0px;
+  color: white;
+  font-size: 15pt;
+  font-family: "Gotham", medium; }
+
+.form__row__input--dicoration::-webkit-input-placeholder,
+.form__input--dicoration::-webkit-input-placeholder {
+  color: white; }
+
+.form__areaButton {
+  text-align: center; }
+
+.form__button {
+  margin: 10px 0 100px 0;
+  padding: 10px 60px 15px 60px; }
+
+.form__button--dicoration {
+  background-color: #11749e;
+  color: white;
+  font-size: 18pt;
+  font-family: "Gotham",medium;
+  border: 0;
+  cursor: pointer; }
+
+.map {
+  width: 100%;
+  height: 300px; }
+
+.map--background {
+  background-image: url(backgroungImages/mapBackground.png);
+  background-position: center -500px;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  width: 100%; }
+
+.footer--color {
+  background-color: #222222;
+  color: white; }
+
+.footer__content {
+  margin: 50px auto; }
+
+.contacts--dicoration {
+  color: white; }
+
+.contacts__email {
+  padding-bottom: 10px; }
+
+.autor {
+  display: flex;
+  flex-direction: row; }
+
+.autor__content {
+  min-width: 100px; }
+
+.autor__image {
+  max-width: 40px;
+  max-height: 40px;
+  position: relative;
+  right: 25px;
+  bottom: 10px; }
